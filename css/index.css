@@ -168,6 +168,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dashed lightgray;
+}
+.navigation {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 800px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +237,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+body,
+.conatiner,
+nav,
+div,
+header,
+section,
+footer {
+  border: 1px solid red;
+  padding: 2px;
+  margin: 2px;
 }
