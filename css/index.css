@@ -1,3 +1,12 @@
+.imgOrText-content {
+  width: 48%;
+  padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .imgOrText-content {
+    width: 100%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -227,7 +236,7 @@ img {
 }
 .home .content-section .text-content {
   width: 48%;
-  padding-right: 1%;
+  padding-left: 1%;
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
