@@ -1,1 +1,18 @@
 // Mixins in here
+
+.buttonStyle(@fontColor: white) {
+    text-align: center;
+    padding: 1.6rem;
+    background-color: @eastern-blue;
+    color: @fontColor;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.imgOrText-content {
+    width: 48%;
+    padding-left: 1%;
+    @media @mobileDevice {
+      width: 100%;
+    }
+}
